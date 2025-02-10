@@ -14,15 +14,16 @@ Cet exercice est un test d'entretien visant à évaluer les compétences du cand
 - Utiliser Material-UI Icons pour les icones: https://mui.com/material-ui/material-icons/
 
 ### Étape 3 : Implémenter la pagination
-- Utiliser les paramètres `page` et `limit` sur /recipes pour ajouter la pagination
+Utiliser les paramètres `page` et `limit` sur /recipes pour ajouter la pagination
+Désactiver le bouton s'il n'y a pas d'autres éléments
 
 ### Étape 4 : Implémenter le tri
-- Utiliser les paramètres `sortBy` et `order` pour trier sur les propriétés suivantes:
+Utiliser les paramètres `sortBy` et `order` pour trier sur les propriétés suivantes:
   - `createdAt` (ascendant ou descendant)
   - `duration` (ascendant ou descendant)
 
 ### Étape 5 : Ajouter des fonctionnalités de filtrage
-- Utiliser les paramètres décrites dans README.md pour filtrer par :
+Utiliser les paramètres décrites dans README.md pour filtrer par :
   - Niveau de difficulté (`beginner`, `intermediate`, `advanced`)
   - Ingrédients (Récupérer la liste des ingrédients disponible via l'api /ingredients et implémenter une liste pour sélectionner l'ingrédient pour récupérer uniquement les recettes utilisant cet ingrédient)
 
