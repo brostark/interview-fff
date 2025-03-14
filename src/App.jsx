@@ -11,7 +11,10 @@ function App() {
     const updateData = async () => {
       setLoading(true);
       const { data } = await axios.get("http://localhost:3332/recipes", {
-        params: { limit: 10 },
+        params: {
+          page: 1,
+          limit: 10,
+        },
       });
 
       setRecipes(data.items);
